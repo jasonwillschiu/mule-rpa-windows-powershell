@@ -6,6 +6,8 @@
 - Folder's are setup and server is started
 - Look inside the client folder, run the setup file, it'll auto open the wizard
 - In the wizard, give the session a name (say sesh1). Then ip="localhost" port=3270, everything else default
+
+These steps are optional, the RPA bot I built automatically opens the client once, presses some buttons, quits then reopens the client.
 - Open the session shortcut (sesh1), it might not work the first, second or even third time. Keep opening, trying to press ENTER, ESC and F3. Quit the client, and retry until it works. It should work after 2 tries, but sometimes takes more.
 - Once you get the "Logon ===>" prompt you're good to go with automating it with RPA builder
 
